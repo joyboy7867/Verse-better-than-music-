@@ -36,8 +36,10 @@ const Page = () => {
             
           </div>
           <div className="relative text-center z-10 w-full mt-4">
-          <DrawerDemo/>
+            <Button><Link href={"/dashboard"}>Go to Audio-Player </Link></Button>
+         
           </div>
+           <span className='relative z-10 m-auto mt-5'><DrawerDemo/></span>
           
         </motion.div>
         <div className="flex flex-wrap -mx-2">
